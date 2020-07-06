@@ -67,3 +67,4 @@ done<final_busco_ids.txt # the file is piped into the while loop
 
 
 # script is not complete yet, see the original tutorial for complete scripts (for earlier BUSCO version)
+https://bioinformaticsworkbook.org/dataAnalysis/phylogenetics/reconstructing-species-phylogenetic-tree-with-busco-genes-using-maximum-liklihood-method.html#gsc.tab=0
