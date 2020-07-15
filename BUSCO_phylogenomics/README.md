@@ -6,6 +6,5 @@ Softwares used:
 - ASTRAL
 
 Filetree when using these scripts:
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![Image](https://github.com/fernmoss/fungi_genome_scripts/blob/master/busco_phylogenomics_filetree1.png)
-<img src="https://github.com/fernmoss/fungi_genome_scripts/blob/master/busco_phylogenomics_filetree1.png"/>
+![Image](https://github.com/fernmoss/fungi_genome_scripts/blob/master/BUSCO_phylogenomics/busco_phylogenomics_filetree1.png)
+
