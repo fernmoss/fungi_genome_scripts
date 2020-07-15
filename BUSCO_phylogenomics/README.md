@@ -4,7 +4,7 @@ Softwares used:
 - MAFFT
 - RAxML
 - ASTRAL
+-
+- Filetree when using these scripts:
 
-Filetree when using these scripts:
 ![Image](https://github.com/fernmoss/fungi_genome_scripts/blob/master/BUSCO_phylogenomics/busco_phylogenomics_filetree1.png)
-
