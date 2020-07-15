@@ -5,8 +5,8 @@
 
 
 
-mkdir busco_phylo
-cd busco_phylo
+mkdir busco_phylogenomics
+cd busco_phylogenomics
 
 # make folders to store aa and nt fasta files
 mkdir -p busco_aa
