@@ -12,7 +12,7 @@
 
 
 
-# First, find the contig and scaffold names and save to a file
+# First, use grep to find the contig and scaffold names and save to a file
 # 1st pattern: |LETTERSNUMBERS.1
 # 2nd pattern: |CONTIG_NUMBERS
 # 3rd pattern: |SCAFFOLD_NUMBERS
