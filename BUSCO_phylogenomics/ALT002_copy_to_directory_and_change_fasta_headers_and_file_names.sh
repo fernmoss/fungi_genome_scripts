@@ -11,6 +11,7 @@ for file in ${dir}/*.faa; do
 filename=`basename $file`
 cp $file busco_aa/${genomename}_${filename} # saves the gene fasta file name in the variable filename
 sed -i 's/>.*[[:space:]]<unknown[[:space:]]description>$/>'${genomename}'/g' busco_aa/${genomename}_${filename} # replaces the fasta header with the content of genomename
+busco_aa/${genomename}_${filename} | tr '[:lower:]' '[:upper:]' > busco_aa/${genomename}_${filename}.1 #Change to uppercase
 mv busco_aa/${genomename}_${filename}.1 busco_aa/${genomename}_${filename} # changes the name of the file, removes the .1 file extension
 done
 done
