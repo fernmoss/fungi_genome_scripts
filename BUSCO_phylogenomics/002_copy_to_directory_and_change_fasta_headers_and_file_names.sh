@@ -42,7 +42,7 @@ done
 for file in ${dir}/*.fna; do
 filename=`basename $file`
 cp $file busco_nt/${genomename}_${filename} # saves the gene fasta file name in the variable filename
-sed -i 's/>.*[[:space:]]<unknown[[:space:]]description>$/>'${genomename}'|/g' busco_nt/${genomename}_${filename} # replaces the first string in the fasta header with the content of genomename
+sed -i 's/>.*[[:space:]]<unknown[[:space:]]description>$/>'${genomename}'/g' busco_nt/${genomename}_${filename} # replaces the first string in the fasta header with the content of genomename
 cut -f 1 -d ":" busco_nt/${genomename}_${filename} | tr '[:lower:]' '[:upper:]' > busco_nt/${genomename}_${filename}.1
 mv busco_nt/${genomename}_${filename}.1 busco_nt/${genomename}_${filename} # changes the name of the file, removes the .1 file extension
 done
